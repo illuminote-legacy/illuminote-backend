@@ -1,17 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Private Portal Access</title>
-    <link rel="stylesheet" href="style.css">
+  <title>Member Portal Login</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Secure Member Portal</h1>
-    <p>Authorized personnel only. Enter the realm of legacy engineering.</p>
-    <form action="/login" method="POST">
-        <label for="username">Username:</label><input type="text" id="username" name="username"><br>
-        <label for="password">Password:</label><input type="password" id="password" name="password"><br>
-        <button type="submit">Enter</button>
-    </form>
+  <h1>Secure Member Portal</h1>
+  <form action="/login" method="post">
+    <label>Username:</label><input name="username" required><br>
+    <label>Password:</label><input type="password" name="password" required><br>
+    <button type="submit">Enter</button>
+  </form>
 </body>
 </html>

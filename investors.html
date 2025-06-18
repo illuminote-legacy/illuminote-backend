@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Investor Relations</title>
-    <link rel="stylesheet" href="style.css">
+  <title>Investor Relations</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Investor Relations</h1>
-    <p>Seeking visionary allies. Learn more about investment opportunities within Illuminote.</p>
-    <form action="/submit-inquiry" method="POST">
-        <label for="name">Name:</label><input type="text" id="name" name="name"><br>
-        <label for="email">Email:</label><input type="email" id="email" name="email"><br>
-        <label for="message">Message:</label><textarea id="message" name="message"></textarea><br>
-        <button type="submit">Send</button>
-    </form>
+  <h1>Investor Vision</h1>
+  <p>We're building a £1M revenue-generating empire within 5-10 years. As a Scottish company with dark luxury branding and niche IP, Illuminote is poised to dominate culture-led capital movements.</p>
+  <form action="/invest" method="post">
+    <label>Name:</label><input name="name" required><br>
+    <label>Email:</label><input name="email" required><br>
+    <label>Interest:</label><textarea name="interest"></textarea><br>
+    <button type="submit">Submit Interest</button>
+  </form>
 </body>
 </html>
